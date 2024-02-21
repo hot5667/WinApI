@@ -127,6 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="fonction.cpp" />
     <ClCompile Include="test.cpp" />
     <ClCompile Include="Winapicpp.cpp" />
   </ItemGroup>
