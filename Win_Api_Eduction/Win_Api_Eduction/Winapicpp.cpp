@@ -21,31 +21,46 @@ int main(void)
 	//}
 
 
-	for (int i = 0; i < cnt; i++)
+	//for (int i = 0; i < cnt; i++)
+	//{
+	//	for (int j = 0; j < i; j++)
+	//	{
+	//		cout << " ";
+	//	}	
+
+	//	for (int j = 2 * cnt - 1; j > 2 * i; j--)
+	//	{
+	//		cout << "*";
+	//	}
+	//	cout << "\n";
+	//}
+
+	//int num = 5;
+	//for (int i = 0; i < num; i++) {
+	//	for (int j = 0; j < i; j++) {
+	//		printf(" ");
+	//	}
+
+	//	for (int j = 2 * num - 1; j > 2 * i; j--) {
+	//		printf("*");
+	//	}
+	//	printf("\n");
+	//}
+	//
+
+
+	string str = "string";
+
+	int n = 5;
+
+	//cin >> str >> n;
+
+	while (n >= 0)
 	{
-		for (int j = 0; j < i; j++)
-		{
-			cout << " ";
-		}	
 
-		for (int j = 2 * cnt - 1; j > 2 * i; j--)
-		{
-			cout << "*";
-		}
-		cout << "\n";
+		cout << str;
+		n--;
 	}
 
-	int num = 5;
-	for (int i = 0; i < num; i++) {
-		for (int j = 0; j < i; j++) {
-			printf(" ");
-		}
-
-		for (int j = 2 * num - 1; j > 2 * i; j--) {
-			printf("*");
-		}
-		printf("\n");
-	}
-	
 	return 0;
 }
