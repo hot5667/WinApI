@@ -8,12 +8,15 @@ using namespace std;
 *  int
 *  __int64 (long long)
 */
+int a;
+short mp;
 
 int main(void)
 {
-	int hp = 50;
+	a = 306189112;
+	mp = a;
 
-	//cout << "Hello Wrold!" << endl;
+	cout << mp;
 
 	return 0;
 }
