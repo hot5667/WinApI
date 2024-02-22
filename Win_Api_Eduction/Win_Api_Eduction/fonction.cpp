@@ -2,32 +2,20 @@
 
 using namespace std;
 
-//int Test(int a, int b)
-//{
-//	int c = a + b; //로컬 변수 Stack 영역 활당 
-//
-//	return c;
-//}
+#define ICE 1
 
 int Test(int a)
 {
 	int c = a;
-	int b;
-	int dd;
-	int sadada;
-	char adad[200];
+	int d;
 
+	char buffer[200];
 
-	return c;
 }
-
-
 
 int main()
 {
 	Test(10);
-
-	int a = 10;
 }
 
 /*
@@ -40,7 +28,8 @@ int main()
 */
 
 /*
-*	
+*	32비트 와 64비트 차이 레지스터 차이	
+* 
 * 
 * 
 * 
