@@ -2,16 +2,33 @@
 
 using namespace std;
 
-int Add(int a, int b)
+int Test(int a, int b)
 {
-	cout << a + b << endl;
+	int c = a + b; //로컬 변수 Stack 영역 활당 
 
-	int sum = (a + b);
-
-	return sum;
+	return c;
 }
+
 
 int main()
 {
-	Add(10, 20);
+	Test(10, 20);
+
+	int a = 10;
 }
+
+/*
+	Stack 정리
+	아주 불안정 하고 언제 살아질지 모르는 영역
+	Stack 높은주소 로 부터 낮은 주소로 증가한다.
+
+	함수들이 임시적으로 사용하는 메모장 or 
+	함수들이 사용하는 공용 메모장
+*/
+
+/*
+*	
+* 
+* 
+* 
+*/
