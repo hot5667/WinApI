@@ -2,7 +2,52 @@
 
 using namespace std;
 
-#define ICE 1
+void Test()
+{
+	int a = 100;
+
+	cout << a << endl;
+}
+
+int main() 
+{
+	int hp = 10;
+
+	Test();
+
+	int mp = 200;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//#define ICE 1
 
 //int Test(int a)
 //{
@@ -18,20 +63,21 @@ using namespace std;
 //	Test(10);
 //}
 
-void AddHp(int hp, int value)
-{
-	hp += value;
-}
-
-
-int main()
-{
-	int hp = 100;
-
-	AddHp(hp, 20);
-
-	cout << hp << endl;
-}
+//int AddHp(int hp, int value)
+//{
+//	return	hp + value;
+//}
+//
+//
+//int main()
+//{
+//	int hp = 100;
+//
+//	AddHp(hp, 20);
+//	//00007FF6BF151DDA  call        AddHp(07FF6BF1513EDh)
+//
+//	cout << hp << endl;
+//}
 
 
 /*
@@ -47,7 +93,9 @@ int main()
 *	32비트 와 64비트 차이 레지스터 차이	
 *	
 *	주소 개념 
-* 
+*	
+*	디버깅이 필요한 이유 
+*	
 * 
 * 
 */
