@@ -14,5 +14,4 @@ int Add(int a, int b)
 int main()
 {
 	Add(10, 20);
-	
 }
