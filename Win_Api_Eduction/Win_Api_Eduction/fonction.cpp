@@ -4,19 +4,35 @@ using namespace std;
 
 #define ICE 1
 
-int Test(int a)
+//int Test(int a)
+//{
+//	int c = a;
+//	int d; //쓰레기 값
+//
+//	char buffer[200];
+//
+//}
+//
+//int main()
+//{
+//	Test(10);
+//}
+
+void AddHp(int hp, int value)
 {
-	int c = a;
-	int d; //쓰레기 값
-
-	char buffer[200];
-
+	hp += value;
 }
+
 
 int main()
 {
-	Test(10);
+	int hp = 100;
+
+	AddHp(hp, 20);
+
+	cout << hp << endl;
 }
+
 
 /*
 	Stack 정리
