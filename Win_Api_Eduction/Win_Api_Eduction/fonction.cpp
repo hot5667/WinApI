@@ -7,7 +7,7 @@ using namespace std;
 int Test(int a)
 {
 	int c = a;
-	int d;
+	int d; //쓰레기 값
 
 	char buffer[200];
 
@@ -29,7 +29,8 @@ int main()
 
 /*
 *	32비트 와 64비트 차이 레지스터 차이	
-* 
+*	
+*	주소 개념 
 * 
 * 
 * 
