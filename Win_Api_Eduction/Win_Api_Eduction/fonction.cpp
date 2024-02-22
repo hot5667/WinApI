@@ -2,17 +2,30 @@
 
 using namespace std;
 
-int Test(int a, int b)
+//int Test(int a, int b)
+//{
+//	int c = a + b; //로컬 변수 Stack 영역 활당 
+//
+//	return c;
+//}
+
+int Test(int a)
 {
-	int c = a + b; //로컬 변수 Stack 영역 활당 
+	int c = a;
+	int b;
+	int dd;
+	int sadada;
+	char adad[200];
+
 
 	return c;
 }
 
 
+
 int main()
 {
-	Test(10, 20);
+	Test(10);
 
 	int a = 10;
 }
