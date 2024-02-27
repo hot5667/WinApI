@@ -1,19 +1,26 @@
 #include <iostream>
+#include <windows.h>
+using namespace std;
+#include "Helper.h"
+#include "Map.h"
+#include "Player.h"
+
 
 
 int main()
 {
-	int Star = 5;
+	SetCursorOnOff(false);
 
-	for(int i = 0; i < Star; ++i)
+	//MovePlayer(3, 2);
+
+	while (true)
 	{
-		for(int j = 0; j < Star - i; ++j)
-		{
-			printf("*");
-		}
+		// 입력
+		HandleKeyInput();
+		// 로직
+		HandleMove();
 
-		printf("\n");
+		// 출력 
+		PrintMap2D();
 	}
-
-	return 0;
 }
